@@ -138,7 +138,7 @@ public class Game
 		String val = "";
 		val += String.format("Level 1 goalReached: %b, getPoints: %d %n", levelOne.goalReached(), levelOne.getPoints());
 		val += String.format("Level 2 goalReached: %b, getPoints: %d %n", levelTwo.goalReached(), levelTwo.getPoints());
-		val += String.format("Level 3 goalReached: %b, getPoints: %d %n", levelThree.goalReached(), levelThree.getPoints(), isBonus());
+		val += String.format("Level 3 goalReached: %b, getPoints: %d %n", levelThree.goalReached(), levelThree.getPoints());
 		val += String.format("isBonus: %b %n", isBonus);
 		val += String.format("Score calculation: %d", getScore());
 		return val;

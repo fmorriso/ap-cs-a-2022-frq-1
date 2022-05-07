@@ -45,7 +45,7 @@ public class Driver
 	{
 		Game g = new Game(200, 100, 500, true);
 		int highScore = g.playManyTimes(4);
-		System.out.println("High score: " + highScore);
+		System.out.println("\nPart B:\n\tHigh score: " + highScore);
 	}
 
 }
