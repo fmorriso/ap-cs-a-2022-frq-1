@@ -1,4 +1,4 @@
-# AP CA A - 2022 - FRQ #1
+# AP CS A - 2022 - FRQ #1
 A runnable solution to the AP CS A Exam FRQ #1
 ## Notes:
 * I added a few extra methods to the `Level` and `Game` classes to facilitate the creation and running of the `Driver` class.
