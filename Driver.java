@@ -1,4 +1,8 @@
-
+/**
+ * <b>Purpose:</b> A driver that will run both part A and part B of the FRQ 
+ * @author Fred Morrison
+ *
+ */
 public class Driver
 {
 
@@ -8,6 +12,9 @@ public class Driver
 		PartB();
 	}
 
+	/**
+	 * <b>Purpose:</b> runs the four test cases described in Part A of the FRQ
+	 */
 	private static void PartA()
 	{
 		Game g = new Game(200, 100, 500, true);
@@ -31,6 +38,9 @@ public class Driver
 		
 	}
 	
+	/**
+	 * <b>Purpose:</b> To run Part B of the FRQ
+	 */
 	private static void PartB()
 	{
 		Game g = new Game(200, 100, 500, true);
