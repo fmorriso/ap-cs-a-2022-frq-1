@@ -16,7 +16,7 @@ public class Game
 	 */
 	public Game()
 	{
-		this(10, 50, 100, false);
+		this(10, 50, 100, false); // my chosen defaults
 	}
 
 	/**
@@ -55,6 +55,10 @@ public class Game
 		levelThree.setPoints(getRandomPoints());
 	}
 
+	/**
+	 * Helper method to return a random number of points. 
+	 * @return
+	 */
 	private int getRandomPoints()
 	{
 		final int MIN = 100, MAX = 500, RANGE = MAX - MIN + 1;
@@ -124,6 +128,11 @@ public class Game
 		return score;
 	}
 
+	/**
+	 * Helper method to return a string visualization of the state of an instance of this class.
+	 * @apiNote I know I could (and should) use StringBuilder, but I chose simplificatoin (for students)
+	 * over efficiency (for me).
+	 */
 	public String toString()
 	{
 		String val = "";
@@ -135,6 +144,12 @@ public class Game
 		return val;
 	}
 
+	/**
+	 * Helper method to set the game results for each of the three levels.
+	 * @param one - the number of points to set into the first instance of Level
+	 * @param two - the number of points to set into the second instance of Level
+	 * @param three - the number of points to set into the third instance of Level
+	 */
 	public void setGameResults(int one, int two, int three)
 	{
 		levelOne.setPoints(one);
@@ -142,6 +157,10 @@ public class Game
 		levelThree.setPoints(three);
 	}
 
+	/**
+	 * Helper method to directly maninpulate the bonus setting of the game
+	 * @param isBonusGame - <code>true</code> or <code>false</code> value to replace the current value of isBonus
+	 */
 	public void setBonus(boolean isBonusGame)
 	{
 		isBonus = isBonusGame;		
