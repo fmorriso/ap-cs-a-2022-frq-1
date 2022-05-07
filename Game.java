@@ -19,6 +19,15 @@ public class Game
 		this(10, 50, 100, false);
 	}
 
+	/**
+	 * <b>Purpose:</b> Creates an instance of the Game using the specified threshold levels for each
+	 * level of the game and whether or not this is a bonus game.
+	 * <b>PostCondition:</b> All instances variables have been initialized.
+	 * @param levelOneThreshold
+	 * @param levelTwoThreshold
+	 * @param levelThreeThreshold
+	 * @param isBonusGame
+	 */
 	public Game(int levelOneThreshold, int levelTwoThreshold, int levelThreeThreshold, boolean isBonusGame)
 	{
 		levelOne = new Level(levelOneThreshold);
