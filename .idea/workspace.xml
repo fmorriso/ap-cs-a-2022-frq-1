@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4937a02c-e3c7-4297-b4af-f3fe9a59fdd5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4937a02c-e3c7-4297-b4af-f3fe9a59fdd5" name="Changes" comment="Mark root directory as &quot;source&quot; for IntelliJ" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,8 +80,23 @@
       <workItem from="1666883408434" duration="50000" />
       <workItem from="1666976126281" duration="617000" />
       <workItem from="1667061301990" duration="115000" />
-      <workItem from="1667061596124" duration="29000" />
+      <workItem from="1667061596124" duration="316000" />
     </task>
+    <task id="LOCAL-00001" summary="Mark root directory as &quot;source&quot; for IntelliJ">
+      <created>1667061848991</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667061848991</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Mark root directory as &quot;source&quot; for IntelliJ">
+      <created>1667061874551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667061874551</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +112,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mark root directory as &quot;source&quot; for IntelliJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mark root directory as &quot;source&quot; for IntelliJ" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
